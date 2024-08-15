@@ -205,6 +205,7 @@ padding: 48px 0 48px 0;
     color: #F16D7F;
     margin-bottom: 95px;
     background: none;
+    cursor: pointer;
 }
 .btn-bot:hover{
     color: #FFFFFF;
@@ -236,9 +237,6 @@ padding: 48px 0 48px 0;
 .advantages__content-text{
 font-size: 14px;
 }
-
-
-
 .socialNetwork{
     background: #222222;
     height: 80px;
@@ -274,7 +272,6 @@ font-size: 14px;
 }
 .socialNetwork__content_right-link:hover {
     background: #F16D7F;
-    
 }
 .contain{
     background-size: contain;
@@ -284,22 +281,16 @@ font-size: 14px;
 .form{
     position: relative;
 }
-.form-img{
-    width: initial;
-   display: inline-block;
-    position: absolute;
-    opacity: 0.70;
-    position: absolute;
-    bottom: 0;
-}
+
 .form__content{
+    background-image: url('/img/background.svg');
     display: flex;
     gap: 223px;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    overflow: hidden;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.5);
 }
 .form__content-right{
     width: 360px;
@@ -318,7 +309,6 @@ font-size: 14px;
 .form__content-left{
     padding: 150px 0 156px 0;
     text-align: center;
-    
 }
 .form__content-left-title{
     font-size: 24px;
@@ -341,6 +331,7 @@ font-size: 14px;
 }
 .input-button-container-btn{
     color: white;
+    cursor: pointer;
     border: none;
     padding: 20px;
     border-radius: 0 20px 20px 0;
@@ -359,7 +350,6 @@ font-size: 14px;
     }
     .content-box{
     padding-left: 39px;
-    
     }
     .items{
         padding: 65px 0 109px 0;}
@@ -396,12 +386,11 @@ font-size: 14px;
         justify-content: center;
         gap: 48px;
     }
-    .form-img{
-        height: 100%;
-    }
+    
     .form__content{
         justify-content: center;
         gap: 48px;
+        background-image: url('/img/bg-tablet.svg');
     }
     .form__content-right{
         padding: 64px 0 0 0;
@@ -489,7 +478,6 @@ font-size: 14px;
         justify-content: center;
         margin-bottom: 9px;
         order: 2;
-        /* padding: 0 0 109px 0; */
      }
      .socialNetwork__content_right{
         padding-top: 43px;
